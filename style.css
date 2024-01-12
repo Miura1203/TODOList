@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.inputArea {
+  background-color: darkturquoise;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+input {
+  border-radius: 16px;
+  padding: 8px 16px;
+  border: none;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+button:hover {
+  color: #fff;
+  background-color: #0d41ce;
+}
+
+.inConpleteArea {
+  background-color: rgb(138, 215, 218);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+ul {
+  margin-left: 16px;
+}
+li {
+  margin-bottom: 4px;
+}
+.listRow {
+  display: flex;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: #555;
+}
+.conpleteArea {
+  background-color: rgb(207, 238, 239);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
